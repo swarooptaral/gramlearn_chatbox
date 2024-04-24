@@ -40,3 +40,11 @@ To install the necessary dependencies, follow these steps:
    ```bash
    python app.py
    ```
+
+**4. Add .env file:**
+
+   Create a `.env` file in the backend directory and add the following environment variables:
+
+   ```bash
+   GOOGLE_API_KEY = ""
+   ```
