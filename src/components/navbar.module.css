@@ -1,0 +1,29 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .4);
+    background-color: white;
+    z-index: 999;
+}
+
+.logo {
+    height: 4rem;
+    width: auto;
+    object-fit: contain;
+    user-select: none;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    line-height: 1;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
