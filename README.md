@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**## Installation**
 
-## Getting Started
+To install the necessary dependencies, follow these steps:
 
-First, run the development server:
+**1. Install Node.js and Yarn:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   - **Recommended:** Download and install the latest stable version of Node.js from the official website ([https://nodejs.org/en](https://nodejs.org/en)). The installer typically includes Yarn.
+   ```bash
+   npm install --global yarn
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**2. Verify Installation:**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+   - Open a terminal or command prompt.
+   - Type `node -v` and `yarn -v` to check if Node.js and Yarn are installed correctly. You should see the installed versions.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**3. Install Frontend Dependencies (Yarn):**
 
-## Learn More
+   Once Node.js and Yarn are installed, proceed with the frontend setup as you described:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   yarn install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   yarn dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**4. Install Backend Dependencies (Python):**
 
-## Deploy on Vercel
+   The backend instructions remain the same:
+   ```bash
+   cd backend
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   python app.py
+   ```
